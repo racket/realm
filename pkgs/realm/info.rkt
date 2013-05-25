@@ -1,5 +1,7 @@
 #lang setup/infotab
 
+(define single-collection "realm")
+
 (define name "Realm of Racket Source Code")
 
 (define compile-omit-paths
