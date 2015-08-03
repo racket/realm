@@ -23,7 +23,6 @@
    Run and evaluate 
      (start-snake)
    This will pop up a window with instructions for interacting with the program. 
-   Watch how qiuckly the program guesses X. 
 |#
 
 ;
