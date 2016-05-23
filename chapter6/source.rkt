@@ -89,8 +89,8 @@
 (define EXPIRATION-TIME 150)
 
 ;; GRAPHICAL BOARD
-(define WIDTH-PX  (* SEG-SIZE 30))
-(define HEIGHT-PX (* SEG-SIZE 30))
+(define WIDTH-PX  (* SEG-SIZE SIZE))
+(define HEIGHT-PX (* SEG-SIZE SIZE))
 
 ;; Visual constants
 (define MT-SCENE (empty-scene WIDTH-PX HEIGHT-PX))
