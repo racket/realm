@@ -595,7 +595,7 @@
                 (snake "left" (list (posn 4 5) (posn 5 5))))
   (check-true (let ([f (pit-goos (next-pit world1))])
                 (= (length f) MAX-GOO)))
-  (check-equal? (pit-snake (next-pit world0))
+  (check-equal? (pit-snake (next-pit (pit snake0 (list (goo (posn SIZE SIZE) 100)))))
                 (snake "right" (list (posn 2 1))))
   (check-equal? (pit-snake (next-pit (pit snake0 (list (goo (posn 1 1) 130)))))
                 (snake "right" (list (posn 2 1) (posn 1 1))))
