@@ -418,7 +418,7 @@
           (add left?               (sub1 pos))))
 
 ;; Natural Boolean Boolean Boolean Boolean -> [Listof Naturals]
-;; gets the neighbors for a territory on an even odd
+;; gets the neighbors for a territory on an odd row
 (define (odd-row pos top? bottom? right? left?)
   (append (add top?               (- pos BOARD))
           (add bottom?            (+ pos BOARD))
