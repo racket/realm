@@ -64,7 +64,7 @@
 (define lower 1)
 (define upper 100)
 
-;; -> Nuber Number
+;; -> Number Number
 ;; Guess half-way between lower and upper bounds.
 ;; > (begin (start 0 100) (guess))
 ;; 50
