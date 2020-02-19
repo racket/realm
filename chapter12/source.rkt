@@ -304,7 +304,9 @@
 ;; Which player has won the game -- eager is for N human players 
 (define (won board)
   (define-values (best-score w) (winners board))
-  (if (cons? (rest w)) "It's a tie." "You won."))
+  (cond [(cons? (rest w)) "It's a tie."]
+        [(= (car w) AI) "AI won."]
+        [else "You won."]))
 
 ;                                  
 ;                                  
