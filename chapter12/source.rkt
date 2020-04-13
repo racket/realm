@@ -305,7 +305,7 @@
 (define (won board)
   (define-values (best-score w) (winners board))
   (cond [(cons? (rest w)) "It's a tie."]
-        [(= (car w) AI) "AI won."]
+        [(= (first w) AI) "AI won."]
         [else "You won."]))
 
 ;                                  
