@@ -23,3 +23,6 @@
 (define pkg-desc "Sample code for _Realm of Racket_")
 
 (define pkg-authors '(matthias))
+
+(define license
+  '(Apache-2.0 OR MIT))
