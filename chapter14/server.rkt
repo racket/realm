@@ -644,7 +644,7 @@ The server is responsible for:
                       (list (body 87 67+23i)
                             (body 5 3+4i))
                       empty)
-                empty)
+                "play-remove: test 1")
   (check-equal? (play-remove
                  (play (list (ip iworld2 "player324" (body 56 3+45i) empty))
                        (list (body 87 67+23i)
@@ -654,7 +654,8 @@ The server is responsible for:
                 (play (list)
                       (list (body 87 67+23i)
                             (body 5 3+4i))
-                      empty))
+                      empty)
+		"play-remove: test 1")
   
   ;; testing messaging
   
